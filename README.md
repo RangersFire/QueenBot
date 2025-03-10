@@ -9,35 +9,35 @@
 
 ```javascript
 {
-  message: Message { conversation: '>_ Welcome to NekoBot' },
+  message: Message { conversation: '>_ Welcome to QueenBot' },
   type: 'conversation',
-  msg: '>_ Welcome to NekoBot',
+  msg: '>_ Welcome to QueenBot',
   isMedia: false,
   key: {
-    remoteJid: '6285165556936@s.whatsapp.net',
-    participant: '6285165556936@s.whatsapp.net',
+    remoteJid: '6283854528779@s.whatsapp.net',
+    participant: '6283854528779@s.whatsapp.net',
     fromMe: false,
     id: '5780C33F89C0BE600B6D71DF79C4FC02'
   },
-  cht: '6285165556936@s.whatsapp.net',
+  cht: '6283854528779@s.whatsapp.net',
   fromMe: false,
   id: '5780C33F89C0BE600B6D71DF79C4FC02',
   device: 'android',
   isBot: false,
   isGroup: false,
-  participant: '6285165556936@s.whatsapp.net',
-  sender: '6285165556936@s.whatsapp.net',
+  participant: '6283854528779@s.whatsapp.net',
+  sender: '6283854528779@s.whatsapp.net',
   mentions: [],
-  body: '>_ Welcome to NekoBot',
+  body: '>_ Welcome to QueenBot',
   prefix: '',
   command: '>_',
-  args: [ 'Welcome', 'to', 'NekoBot' ],
-  text: 'Welcome to NekoBot',
+  args: [ 'Welcome', 'to', 'QueenBot' ],
+  text: 'Welcome to QueenBot',
   isOwner: true,
   download: [AsyncFunction (anonymous)]
 }
 ```
-## ⚙️ Settings Bot ***( settings.js )***
+## ⚙️ Configuring Bot ***( settings.js )***
 
 ```javascript
 const fs = require('node:fs');
@@ -108,7 +108,6 @@ break
 Jika ingin mengenal seputar Script ini lebih dalam lagi
 silahkan mampir ke komunitas kami
 
-[![WhatsApp Group](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/ErlaFMvdnfu5OGxCVGJW8V)
-
-[![WhatsApp channel](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb0YWvYJ3jusF2nk9U1P)
+[![WhatsApp Group](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JudDuqJiRwK0yLdzTInSmR)
+[![WhatsApp channel](https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb1mMj3BFLgczEQ3241t)
 

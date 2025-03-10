@@ -88,8 +88,8 @@
   
   console.log(chalk.green.bold(`
     --------------------------------------
-    ☘️ Selamat datang di NekoBot
-  terimakasih telah menggunakan script ini 👍
+    ♕ QueenBot is Online! ✨
+  terimakasih telah menggunakan script ini❤️
     --------------------------------------
   `));
   
@@ -99,26 +99,26 @@
   console.log(chalk.cyan.bold("- Database Telah Diinisialisasi"));
 
   console.log(chalk.blue.bold("\n🤖 Info Bot:"));
-  console.log(chalk.white.bold("  | GitHub: ") + chalk.cyan.bold("https://github.com/AxellNetwork"));
-  console.log(chalk.white.bold("  | Developer: ") + chalk.green.bold("AxellNetwork"));
+  console.log(chalk.white.bold("  | GitHub: ") + chalk.cyan.bold("https://github.com/RangersFire"));
+  console.log(chalk.white.bold("  | Developer: ") + chalk.green.bold("RangersFire"));
   console.log(chalk.white.bold("  | Status Server: ") + chalk.green.bold("Online"));
   console.log(chalk.white.bold("  | Versi: ") + chalk.magenta.bold(pkg.version));
   console.log(chalk.white.bold("  | Versi Node.js: ") + chalk.magenta.bold(process.version));
   
-  console.log(chalk.blue.bold("\n🔁 Memuat plugin dan scraper...")) 
+  console.log(chalk.blue.bold("\n🔁 Harap Tunggu, Sedang Memuat...")) 
 
   async function system() {
     const { state, saveCreds } = await useMultiFileAuthState(config.sessions);
     const groupCache = new NodeCache({stdTTL: 5 * 60, useClones: false});
       
-    const sock = simple(
+    const sock = makeWASocket(
       {
         logger: pino({ level: "silent" }),
         printQRInTerminal: false,
         auth: state,
         cachedGroupMetadata: async (jid) => groupCache.get(jid),
         version: [2, 3000, 1019441105],
-        browser: Browsers.ubuntu("Edge"),
+        browser: Browsers.ubuntu("Chrome"),
       },
       store,    
     );

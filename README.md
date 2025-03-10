@@ -1,6 +1,8 @@
-![Logo](https://files.catbox.moe/obf6o0.jpg)
+![Logo](https://files.catbox.moe/dsuzg2.jpg)
 
-**😼 NekoBot | 1.7.0** | ***create by AxellNetwork***
+**Queen-Bot | v1.0**
+═══════════════
+***Created By RangersFire***
 
 
 ```> Simple WhatsApp bot Using Library Baileys```
@@ -41,20 +43,20 @@
 const fs = require('node:fs');
 
 const config = {
-    owner: ["6285215909004"],
-    name: "- nekoBot - Simple WhatsApp bot",
+    owner: ["6283854528779"],
+    name: "- Queen-Bot - Dedicated WhatsApp bot",
     sessions: "sessions",
     sticker: {
       packname: "Made by ",
-      author: "nekoBot"
+      author: "QueenBot"
     },
    messages: {
       wait: "*( Loading )* Tunggu Sebentar...",
-      owner: "*( Denied )* Kamu bukan owner ku !",
+      owner: "*( Denied )* Fitur khusus Owner Bot!",
       premium: "*( Denied )* Fitur ini khusus user premium",
       group: "*( Denied )* Fitur ini khusus group",
    },
-   database: "neko-db",
+   database: "Q-db",
    tz: "Asia/Jakarta"
 }
 
@@ -66,8 +68,8 @@ module.exports = config
 
 
 ```bash
-$ git clone https://github.com/AxellNetwork/NekoBot
-$ cd nekoBot
+$ git clone https://github.com/RangersFire/QueenBot
+$ cd QueenBot
 $ npm install
 $ npm start
 ```

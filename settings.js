@@ -1,17 +1,17 @@
 const fs = require("node:fs");
 
 const config = {
-  owner: ["6282114275683", "6281910094713"],
-  name: "- NekoBot - Simple WhatsApp bot",
+  owner: ["6283854528779"],
+  name: "- QueenBot- Dedicated WhatsApp bot",
   sessions: "sessions",
   prefix: [".", "?", "!"], // Tambahkan prefix sesuai kebutuhan
   sticker: {
-    packname: "✨ NekoPack ✨", 
-    author: "🐾 AxellNetwork 🐾", 
+    packname: "From Queen✨", 
+    author: "with Love❤️", 
   },
   id: {
-    newsletter: "120363388655497053@newsletter", 
-    group: "120363370515588374@g.us" 
+    newsletter: "120363338443227796@newsletter", 
+    group: "120363392017233446@g.us" 
   },
   messages: {
     wait: "> ⏳ *Mohon tunggu sebentar*... Kami sedang memproses permintaan Anda, harap bersabar ya!", 
@@ -21,7 +21,7 @@ const config = {
     botAdmin: "> ⚠️ *Anda harus menjadi admin grup* untuk menggunakan fitur ini, karena bot memerlukan hak akses admin.", 
     grootbotbup: "> 🛠️ *Jadikan NekoBot sebagai admin* grup untuk menggunakan fitur ini. Pastikan Anda memberikan hak admin kepada bot.", 
   },
-  database: "neko-db",
+  database: "Q-db",
   tz: "Asia/Jakarta",
 };
 
